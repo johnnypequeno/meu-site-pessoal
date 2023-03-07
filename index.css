@@ -18,8 +18,10 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px 10px;
+    box-shadow: 1px 1px 8px #888888;
     background-color: #FFFFFF;
-    box-shadow: 50px 50px #888 2em;
+    position:relative;
+    z-index: 3;
 }
 
 #title h1 {
