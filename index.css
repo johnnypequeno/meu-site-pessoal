@@ -276,3 +276,28 @@ textarea{
     transform: scale(1.2);
 
 }
+
+.content-area {
+    display:flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom:30px;
+    align-items: center;
+    background-image: url("../img/bg-main-2.png");
+    background-size:cover;
+    background-repeat: no-repeat,no-repeat;
+   
+}
+
+.content-area h2 {
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 500px;
+    margin-bottom: 5px;
+}
+
+.content-area p {
+    max-width: 800px;
+    font-size: 25px;
+    margin:8px 0 8px 0;
+}
