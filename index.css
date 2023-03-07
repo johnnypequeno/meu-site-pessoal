@@ -201,15 +201,17 @@ article img {
 
 .form-box input {
     margin-top: 15px;
-    height: 40px;
+    height: 55px;
     border: none;
     outline: none;
     padding-left: 10px;
     border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-submit {
     color: #034AA6;
+    background: #fff;
     font-weight: 700;
     font-size: 20px;
     padding: 10px 5px;

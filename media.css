@@ -52,9 +52,8 @@ form-box form{
     width: 60%;
 }
 
-btn-submit {
+.btn-submit {
     width:100%;
-    color: #FFFF;
 }
 
 .form-box input{
