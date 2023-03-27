@@ -76,16 +76,13 @@
     <div id="contact" class="area-form">
         <h2>Entre em contato</h2>
         <div class="form-box"> 
-            <form action="https://api.staticforms.xyz/submit" method="POST">
-                    <input type="text" placeholder="Nome" required></input>
-                    <input type="email" placeholder="Email" required></input>
-                    <input type="tel" placeholder="Telefone"></input>
-                    <textarea name="message" cols="30" rows="7" placeholder="Mensagem"></textarea>
-                    <input class="btn-submit" type="submit" value="Enviar"></input>
-
-                    <input type="hidden" name="accessKey" value="236bcace-9a7c-4831-b00e-1aa5ac4fe0fe"></input>
-                    <input type="hidden" name="redirectTo" value= "https://johnnypequeno.github.io/meu-site-pessoal/pages/greetings.html"></input>
-            </form>
+            <form>
+                <input type="text" id="f-name" placeholder="Nome" required></input>
+                <input type="email" id="f-email" placeholder="Email" required></input>
+                <input type="tel" id="f-phone" placeholder="Telefone"></input>
+                <textarea name="message" id="f-message" cols="30" rows="7" placeholder="Deixe sua mensagem"></textarea>
+                <input class="btn-submit" type="submit" id="f-button" value="Enviar"></input>
+        </form>
         </div>
     </div>
 
@@ -100,6 +97,6 @@
         <h4> © 2023 | Desenvolvido com &#128151 por Johnny Pequeno</h4>
     </div>
     </footer>
-   
+    <script src="/js/script.js"></script>
 </body>
 </html>
